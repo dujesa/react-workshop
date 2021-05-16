@@ -1,0 +1,15 @@
+.restaurant-list-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .restaurant-list-item {
+    margin: 20px;
+  }
+  
+  @media screen and (max-width: 680px) {
+    .restaurant-list-item {
+      margin: 20px auto;
+    }
+  }
