@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import restaurantApi from "../../api/restaurant";
 
+import restaurantApi from "../../api/restaurant";
 import Layout from "../../components/Layout";
 import Search from "../../components/Search";
 import useFavoriteRestaurants from "../../features/restaurant/hooks/useFavoriteRestaurants";

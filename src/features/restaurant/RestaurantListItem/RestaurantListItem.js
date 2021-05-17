@@ -24,7 +24,7 @@ const RestaurantListItem = ({
         <div className="restaurant-list-item-rating">
           {restaurant.rating} / 5
         </div>
-        <div class="restaurant-list-item-favorite">
+        <div className="restaurant-list-item-favorite">
           <Mark
             onClick={() => toggleFavorite(restaurant)}
             isToggled={isFavorite(restaurant)}
