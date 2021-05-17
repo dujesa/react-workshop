@@ -1,8 +1,14 @@
+import { BrowserRouter as Router } from "react-router-dom";
+
 import "./App.css";
-import RestaurantSearchPage from "./pages/RestaurantSearchPage";
+import Navigation from "./components/Navigation";
 
 const App = () => {
-  return <RestaurantSearchPage />;
+  return (
+    <Router>
+      <Navigation />
+    </Router>
+  );
 };
 
 export default App;
