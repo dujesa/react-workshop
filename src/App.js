@@ -7,7 +7,9 @@ import {
 
 import "./App.css";
 import Navigation from "./components/Navigation";
+import NotFoundPage from "./pages/NotFoundPage";
 import RestaurantSearchPage from "./pages/RestaurantSearchPage";
+import RestaurantsPage from "./pages/RestaurantsPage";
 
 const App = () => {
   return (
@@ -15,13 +17,13 @@ const App = () => {
       <Navigation />
       <Switch>
         <Route path="/restaurants">
-          <div>Restaurant list page</div>
+          <RestaurantsPage />
         </Route>
         <Route exact path="/">
           <RestaurantSearchPage />
         </Route>
         <Route path="/404">
-          <div>not found page</div>
+          <NotFoundPage />
         </Route>
         <Redirect to="/404" />
       </Switch>
