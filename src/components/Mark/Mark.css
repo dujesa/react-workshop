@@ -1,0 +1,12 @@
+.mark-container {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.mark-toggled {
+  background: yellow;
+}
